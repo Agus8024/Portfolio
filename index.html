@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b95dd2023e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="heart">
+                <a href="formulario.html"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <nav>
+                <input type="checkbox" id="check" />
+                    <label for="check" class="checkbtn">
+                     <i class="fa-solid fa-bars"></i>
+                    </label>
+                <div id="encabezado">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#acerca-de">Acerca de mí</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#redes">Redes</a></li>
+                        <li><a href="formulario.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#acerca-de">Acerca de mí</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#redes">Redes</a></li>
+                        <li><a href="formulario.html">Contacto</a></li>
+                    </ul>
+                </div>
+                    <div class="instant"><a href="https://open.spotify.com/intl-es/track/2cGxRwrMyEAp8dEbuZaVv6?si=ced59c5e85284536"><i class="fa-solid fa-music"></i></a>
+                </div>             
+                 
+                
+            </nav>
+        </header>
+        
+        <main>
+            <section>
+                <div class="seccion1">
+                    <div id="acerca-de">
+                        <h1><u>Acerca de mi</u></h1>
+                        <p class="parrafo1">
+                            ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+                        </p>
+                        <p class="parrafo2">
+                            Hola! Me llamo Agus, nací en Mendoza y vivo en Dorrego. 
+                        </p>
+                        <p>Me gustan los animales, el campo y el deporte.</p>
+                    </div>
+                    <div class="acerca-imagen">
+                        <img src="imagenes/nasa-hubble-space-telescope-nOr0PFuQ8Qc-unsplash.jpg" alt="Imagen personal">
+                    </div>
+                </div>
+                <div class="mascotas">
+                    <h2><u>Mis mascotas</u></h2>
+                    <div class="imagenes">
+                        <div class="maika">
+                            <img src="imagenes/maika.jpg" alt="maika"> 
+                            <p><strong>Maika</strong></p>                
+                        </div>
+                        <div class="mischy">
+                            <img src="imagenes/mischy.jpg" alt="mischy">
+                            <p><strong>Mischy</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="experiencia">
+                    <h2><u>Experiencia</u></h2>
+                    <div class="contenido">
+                        <ul>
+                            <div class="titulo">
+                                <h3>Título</h3>
+                                <img src="imagenes/titulo2.png" alt="titulo">
+                                <li>Ingeniería en Recursos Naturales Renovables</li> <li>Actualmente cursando 5to Año</li>
+                            </div>
+                            <div class="idiomas">
+                                <h3>Idiomas</h3>
+                                <img src="imagenes/idiomas.png" alt="idiomas">
+                                <ul>
+                                    <li>Español: Idioma Natal</li>
+                                    <li>Inglés: Nivel C1</li>
+                                    <li>Francés: Nivel B1</li>
+                                </ul>
+                            </div>
+                            <div class="trabajos">
+                                <h3>Trabajos</h3>
+                                <img src="imagenes/pala.jpg" alt="pala">
+                                <ul>
+                                    <li>Tratamiento de efluentes en planta de FCA</li>
+                                    <li>Instructor de Crossfit</li>
+                                    <li>Clases particulares de idiomas</li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <seccion class="seccion-frase">
+                <div class="button-container">
+                    <button id="btn-generar">Frase del día</button>
+                   <p id="frase"></p>
+                </div>
+            </section>
+        </main>
+        
+        <footer id="redes">
+            <h2><u>Redes Sociales</u></h2>
+            <ul>                
+                <div class="instagram">
+                    <li><a href="https://www.instagram.com/agu_rosato/">Instagram</a></li>
+                    <img src="imagenes/instagram-nuevo-icono_1057-2227.avif" alt="ig">
+                </div>
+                <div class="wpp">
+                    <li><a href="https://w.app/Agustin">Whatsapp</a></li>
+                    <img src="imagenes/wpp.png" alt="wpp">
+                </div>
+                <div class="Xapp">
+                    <li><a href="https://x.com/whotfismick/status/1751465546191667235?s=46&t=OqXqzil8cVErapd_MRUg1Q">Twitter/X</a></li>
+                    <img src="imagenes/x.avif" alt="x">
+                </div>
+                
+            </ul>
+        </footer>
+    </div>
+     
+       <script src="index.js"></script>
+</body>
+</html>
